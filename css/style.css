@@ -16,6 +16,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  position: fixed;
 }
 
 nav {
@@ -30,6 +31,7 @@ nav ul {
 
 nav li {
   margin: 0 40px;
+  display: inline-block;
 }
 
 nav a {
@@ -92,6 +94,7 @@ nav a:hover {
   margin: 20px;
   color: #466995;
   font-weight: 700;
+  display: inline-block;
 }
 
 .answer:hover {
